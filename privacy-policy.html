@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Word Search Challenge | InfinityAppsHub</title>
+  <meta name="description" content="Official Privacy Policy for the Word Search Challenge mobile application published by InfinityAppsHub." />
+  <style>
+    :root {
+      --bg: #f5f7f3;
+      --surface: #ffffff;
+      --primary-navy: #173b45;
+      --deep-navy: #0f293a;
+      --accent-teal: #28a889;
+      --accent-teal-soft: #eef7f4;
+      --accent-border: #c8e6dc;
+      --gold: #f3b94f;
+      --gold-text: #fde047;
+      --body-text: #334e58;
+      --muted-text: #61736f;
+      --card-border: #d6e0dc;
+      --radius: 18px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --surface: #1e293b;
+        --primary-navy: #f8fafc;
+        --body-text: #cbd5e1;
+        --muted-text: #94a3b8;
+        --card-border: #334155;
+        --accent-teal-soft: #0f293a;
+        --accent-border: #1e4e5a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: var(--bg);
+      color: var(--body-text);
+      line-height: 1.65;
+      padding: 24px 16px 64px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: linear-gradient(135deg, #174650 0%, #0f293a 100%);
+      color: #ffffff;
+      padding: 28px 26px;
+      border-radius: 22px;
+      box-shadow: 0 10px 26px rgba(15, 41, 58, 0.22);
+      margin-bottom: 22px;
+    }
+
+    .hero-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .badge-updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(243, 185, 79, 0.18);
+      border: 1px solid rgba(243, 185, 79, 0.55);
+      color: var(--gold-text);
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 5px 13px;
+      border-radius: 999px;
+    }
+
+    .badge-publisher {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(255, 255, 255, 0.14);
+      color: #ffffff;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 5px 13px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.97rem;
+      margin-bottom: 18px;
+    }
+
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      background: rgba(255, 255, 255, 0.13);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 5px 11px;
+      border-radius: 10px;
+    }
+
+    /* Section Cards */
+    .card {
+      background-color: var(--surface);
+      border: 1.2px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      margin-bottom: 16px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-num {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(40, 168, 137, 0.14);
+      color: var(--accent-teal);
+      font-weight: 900;
+      font-size: 0.92rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      color: var(--primary-navy);
+      font-size: 1.12rem;
+      font-weight: 800;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .card ul {
+      list-style: none;
+      margin: 10px 0 4px;
+    }
+
+    .card ul li {
+      position: relative;
+      padding-left: 18px;
+      margin-bottom: 9px;
+      font-size: 0.93rem;
+    }
+
+    .card ul li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 9px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--accent-teal);
+    }
+
+    .callout {
+      margin-top: 12px;
+      padding: 13px 15px;
+      background-color: var(--accent-teal-soft);
+      border: 1px solid var(--accent-border);
+      border-radius: 12px;
+      color: var(--primary-navy);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 28px;
+      padding: 22px;
+      background-color: var(--surface);
+      border: 1.2px solid var(--card-border);
+      border-radius: var(--radius);
+    }
+
+    .footer h3 {
+      color: var(--primary-navy);
+      font-size: 1.05rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .footer p {
+      color: var(--muted-text);
+      font-size: 0.86rem;
+    }
+
+    a {
+      color: var(--accent-teal);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Header -->
+    <header class="hero">
+      <div class="hero-top">
+        <span class="badge-updated">Last Updated: November 25, 2026</span>
+        <span class="badge-publisher">InfinityAppsHub • v1.0.0</span>
+      </div>
+      <h1>Privacy Policy – Word Search Challenge</h1>
+      <p>
+        <strong>InfinityAppsHub</strong> ("we", "us", or "our") built the <strong>Word Search Challenge</strong> mobile application (Package ID: <code>com.wordquest.wordquest</code>). We respect your privacy and designed Word Search Challenge as an offline-first puzzle game that stores your gameplay progress locally on your device without requiring account registration.
+      </p>
+      <div class="pills">
+        <span class="pill">No Login Required</span>
+        <span class="pill">Local On-Device Storage</span>
+        <span class="pill">Google AdMob Disclosed</span>
+        <span class="pill">DPDP Act &amp; Google Play Compliant</span>
+      </div>
+    </header>
+
+    <!-- 01 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Overview and Scope of This Privacy Policy</h2>
+      </div>
+      <p>
+        This Privacy Policy explains what information is collected, stored, or processed when you install and play <strong>Word Search Challenge</strong>, how that information is used, and the choices you have regarding your data.
+      </p>
+      <p>
+        By installing or using Word Search Challenge, you acknowledge the data practices described in this Privacy Policy. This policy applies strictly to the Word Search Challenge Android mobile application published by <strong>InfinityAppsHub</strong> on Google Play.
+      </p>
+      <div class="callout">
+        Word Search Challenge does not require you to create an account, sign in, or provide your name, email address, phone number, or physical location to play.
+      </div>
+    </section>
+
+    <!-- 02 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Information Stored Locally on Your Device</h2>
+      </div>
+      <p>
+        All core gameplay and progression data is created and stored strictly locally on your device inside the Application's private SQLite database (<code>wordquest_v1.db</code>) and Android SharedPreferences:
+      </p>
+      <ul>
+        <li><strong>Game Progress &amp; Statistics:</strong> Completed levels across the 50 puzzle categories (1,250 puzzles), star ratings (1–3 stars), found words, active/paused board snapshots, elapsed puzzle timers, and lifetime scores.</li>
+        <li><strong>Virtual Coin Wallet &amp; Ledger:</strong> Starting welcome coins (250 coins), coins earned from level and Daily Challenge completions, coins spent on word hints (50 coins), and coins spent on level or category unlocks (2,000 coins).</li>
+        <li><strong>Daily Challenge History:</strong> Calendar dates of completed Daily Challenges and your 7-day streak progress.</li>
+        <li><strong>App Preferences:</strong> Your toggles for Sound Effects, Vibration &amp; Haptics, and 9:00 AM Daily Challenge notification reminders.</li>
+      </ul>
+      <div class="callout">
+        We do not operate a proprietary remote server to harvest or view your local SQLite gameplay database.
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Information We Do NOT Collect</h2>
+      </div>
+      <p>
+        <strong>InfinityAppsHub</strong> does not ask for, collect, or store any of the following personal or sensitive user data:
+      </p>
+      <ul>
+        <li>Personal identifiers such as your real name, email address, phone number, or postal address (unless you voluntarily email our support team).</li>
+        <li>Precise GPS location, contacts, call logs, SMS messages, photos, media files, camera, or microphone recordings.</li>
+        <li>Financial, payment, banking, or credit card details.</li>
+      </ul>
+    </section>
+
+    <!-- 04 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Third-Party Advertising (Google AdMob)</h2>
+      </div>
+      <p>
+        Word Search Challenge is free to play and is supported by advertisements served via the <strong>Google Mobile Ads SDK (Google AdMob)</strong>. To display banner ads, frequency-capped interstitial ads, and optional rewarded video ads, the Google Mobile Ads SDK may automatically collect and process certain device and interaction data:
+      </p>
+      <ul>
+        <li><strong>Device &amp; Advertising Identifiers:</strong> The Android Advertising ID (AAID) and app-set ID used for frequency capping, ad delivery, fraud prevention, and (where permitted by your device settings) personalized or non-personalized advertising.</li>
+        <li><strong>Coarse Device &amp; Network Information:</strong> Device make, model, operating system version, screen dimensions, language setting, mobile carrier, and IP address (which may be used by Google to estimate general country/region location).</li>
+        <li><strong>Ad Interaction &amp; Diagnostic Data:</strong> Ad impressions, clicks, rewarded video completions, and SDK crash/performance diagnostics.</li>
+      </ul>
+      <p>
+        For more information on how Google collects and processes data, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>.
+      </p>
+      <div class="callout">
+        You can reset or delete your Android Advertising ID or opt out of personalized ads at any time in your device's Android Settings → Google → Ads (or Privacy → Ads).
+      </div>
+    </section>
+
+    <!-- 05 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Device Permissions Explained</h2>
+      </div>
+      <p>
+        Word Search Challenge requests only the minimum Android system permissions necessary for its core features:
+      </p>
+      <ul>
+        <li><strong>INTERNET &amp; ACCESS_NETWORK_STATE:</strong> Used strictly by the Google Mobile Ads SDK to load advertisements when an internet connection is available. Core puzzle gameplay remains playable offline.</li>
+        <li><strong>POST_NOTIFICATIONS (Android 13+):</strong> Requested only after showing an in-app explanation so the Application can send one optional local reminder at 9:00 AM for the Daily Challenge. You can deny this permission or turn reminders off anytime in the in-app Settings tab.</li>
+        <li><strong>RECEIVE_BOOT_COMPLETED:</strong> Allows the local 9:00 AM Daily Challenge alarm to reschedule automatically after you restart your phone, only if notifications are enabled.</li>
+        <li><strong>com.google.android.gms.permission.AD_ID:</strong> Standard Google Play Services permission used by Google AdMob to access the user-resettable Advertising ID.</li>
+      </ul>
+    </section>
+
+    <!-- 06 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">06</span>
+        <h2 class="section-title">Local Notifications</h2>
+      </div>
+      <p>
+        Daily Challenge reminders are scheduled and triggered 100% locally on your Android device using Android's <code>AlarmManager</code> and <code>NotificationManager</code>. No external push notification servers (such as Firebase Cloud Messaging) track your device token.
+      </p>
+      <p>
+        You have full control over notifications and can enable or disable "Daily Challenge Reminders" at any time in the in-app Settings screen or through Android System Settings.
+      </p>
+    </section>
+
+    <!-- 07 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">07</span>
+        <h2 class="section-title">Data Retention, Backup and Deletion</h2>
+      </div>
+      <p>
+        Because your gameplay data is stored locally on your device, you have direct control over its retention and deletion:
+      </p>
+      <ul>
+        <li><strong>How to Delete Your Data:</strong> You can permanently erase all locally stored game progress, coin balances, and preferences at any time by clearing the Application's storage in <em>Android Settings → Apps → Word Search Challenge → Storage → Clear Data</em>, or by uninstalling the Application.</li>
+        <li><strong>Android Auto Backup:</strong> Depending on your device settings, Android's built-in Google Drive backup may automatically back up and restore your app data across reinstalls on devices signed into your Google account. You can manage or delete app backups in your Google Drive / Android System Backup settings.</li>
+      </ul>
+    </section>
+
+    <!-- 08 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">08</span>
+        <h2 class="section-title">Children's Privacy</h2>
+      </div>
+      <p>
+        Word Search Challenge is a general-audience word search puzzle game and does not knowingly collect personal information from children. We do not provide chat features, user-generated content, social profiles, or personal data collection forms.
+      </p>
+      <p>
+        If you are a parent or guardian and believe that your child has sent personal information to us via a support email, please contact us and we will promptly delete such correspondence.
+      </p>
+    </section>
+
+    <!-- 09 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">09</span>
+        <h2 class="section-title">Data Security</h2>
+      </div>
+      <p>
+        Your local game database and preferences are stored within Android's sandboxed application storage directory, which is protected by the Android operating system from access by other unauthorized apps. Any network communication performed by the Google Mobile Ads SDK is encrypted in transit using industry-standard HTTPS/TLS.
+      </p>
+    </section>
+
+    <!-- 10 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">10</span>
+        <h2 class="section-title">Compliance with Indian Law &amp; User Rights</h2>
+      </div>
+      <p>
+        This Privacy Policy is prepared in accordance with applicable Indian data protection and information technology laws, including the Information Technology Act, 2000 and the Digital Personal Data Protection Act, 2023 (DPDP Act), as well as Google Play Developer Program Policies.
+      </p>
+      <p>
+        You have the right to withdraw consent for optional permissions (such as notifications or the Android Advertising ID) at any time via your device settings and to erase your local application data.
+      </p>
+    </section>
+
+    <!-- 11 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">11</span>
+        <h2 class="section-title">Changes to This Privacy Policy</h2>
+      </div>
+      <p>
+        <strong>InfinityAppsHub</strong> may update this Privacy Policy from time to time to reflect changes in application features, third-party SDK updates, or regulatory requirements. Any updates will be posted on this page with a revised "Last Updated" date.
+      </p>
+    </section>
+
+    <!-- 12 -->
+    <section class="card">
+      <div class="section-header">
+        <span class="section-num">12</span>
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact <strong>InfinityAppsHub</strong> at:
+      </p>
+      <ul>
+        <li><strong>Developer / Publisher:</strong> InfinityAppsHub</li>
+        <li><strong>Privacy &amp; Support Email:</strong> <a href="mailto:yogyanttechnology@gmail.com">yogyanttechnology@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <h3>Word Search Challenge • Published by InfinityAppsHub</h3>
+      <p>&copy; 2026 InfinityAppsHub. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
